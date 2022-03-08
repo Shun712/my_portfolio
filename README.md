@@ -33,7 +33,7 @@
 https://www.figma.com/file/bCLhhsW8V6k5k5c3SBRGPv/%E3%81%8A%E3%81%99%E3%81%9D%E5%88%86%E3%81%91%E3%82%A2%E3%83%97%E3%83%AA?node-id=0%3A1
 
 # テーブル設計
-[![Image from Gyazo](https://i.gyazo.com/6a8d7d0d62ad8cbab3ad813544ae0395.png)](https://gyazo.com/6a8d7d0d62ad8cbab3ad813544ae0395)
+[![Image from Gyazo](https://i.gyazo.com/94367a33723dd48cebcee44de126815c.png)](https://gyazo.com/94367a33723dd48cebcee44de126815c)
 
 ## 補足説明
 
