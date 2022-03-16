@@ -16,9 +16,10 @@
 | 作物編集ページを表示                 |    GET     | /crops/:id/edit              | crops#edit                  |
 | 作物更新処理                     | PUT, PATCH | /crops/:id                   | crops#update                |
 | 作物を削除                      |   DELETE   | /crops/:id                   | crops#destroy               |
-| フォロー中のユーザー一覧ページを表示         |    GET     | /users/:id/relationships     | relationships#index         |
-| ユーザーをフォロー                  |    POST    | /relationships               | relationships#create        |
-| ユーザーをアンフォロー                |   DELETE   | /relationships/:id           | relationships#destroy       |
+| (本人)フォロー一覧ページを表示           |    GET     | /mypage/relationships        | relationships#following     |
+| (本人)フォロワ一覧ページを表示           |    GET     | /mypage/relationships        | relationships#follower      |
+| ユーザーをフォロー                  |    POST    | /users/:id/relationships     | relationships#create        |
+| ユーザーをアンフォロー                |   DELETE   | /users/:id/relationships/:id | relationships#destroy       |
 | いいねした一覧ページを表示              |    GET     | /favorites                   | favorites#index             |
 | 作物をいいね                     |    POST    | /favorites                   | favorites#create            |
 | いいねを解除                     |   DELETE   | /favorites/:id               | favorites#destroy           |
@@ -30,12 +31,11 @@
 | 予約更新処理                     | PUT, PATCH | /reservations/:id            | reservations#update         |
 | 予約を削除                      |   DELETE   | /reservations/:id            | reservations#destroy        |
 | (本人)通知一覧を表示                |    GET     | /mypage/notifications        | mypage/notifications#index  |
-| チャットルーム一覧ページを表示            |    GET     | /chatrooms                   | chatrooms#index             |
 | チャットルーム登録処理                |    POST    | /chatrooms                   | chatrooms#create            |
 | チャットルーム詳細ページを表示            |    GET     | /chatrooms/:id               | chatrooms#show              |
-| チャット登録処理                   |    POST    | /chats                       | chats#create                |
+| チャット登録処理                   |    POST    | /chatrooms/:id/chats         | chats#create                |
 | チャット更新処理                   | PUT, PATCH | /chats/:id                   | chats#update                |
-| チャットを削除                    |   DELETE   | /chats/:id                   | chats#destoy                |
+| チャットを削除                    |   DELETE   | /chats/:id                   | chats#destroy               |
 | フィードバック登録ページ表示             |    GET     | /feedbacks/new               | feedbacks#new               |
 | フィードバック登録処理                |    POST    | /feedbacks                   | feedbacks#create            |
 | 利用規約ページを表示                 |    GET     | /term                        | static_pages#terms          |
