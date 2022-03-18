@@ -23,7 +23,7 @@
 | いいねした一覧ページを表示              |    GET     | /favorites                   | favorites#index             |
 | 作物をいいね                     |    POST    | /favorites                   | favorites#create            |
 | いいねを解除                     |   DELETE   | /favorites/:id               | favorites#destroy           |
-| 予約一覧ページを表示                 |    GET     | /reservations                | reservations#index          |
+| (本人)予約一覧ページを表示             |    GET     | /mypage/reservations         | mypage/reservations#index   |
 | 予約登録ページを表示                 |    GET     | /reservations/new            | reservations#new            |
 | 予約登録処理                     |    POST    | /reservations                | reservations#create         |
 | 予約詳細ページを表示                 |    GET     | /reservations/:id            | reservations#show           |
