@@ -31,7 +31,7 @@
 https://www.figma.com/file/bCLhhsW8V6k5k5c3SBRGPv/%E3%81%8A%E3%81%99%E3%81%9D%E5%88%86%E3%81%91%E3%82%A2%E3%83%97%E3%83%AA?node-id=0%3A1
 
 # テーブル設計
-[![Image from Gyazo](https://i.gyazo.com/d59144749d83cfa51756676063abead4.png)](https://gyazo.com/d59144749d83cfa51756676063abead4)
+[![Image from Gyazo](https://i.gyazo.com/5b1e2b525e6169112a397dac6e818fbf.png)](https://gyazo.com/5b1e2b525e6169112a397dac6e818fbf)
 
 # 主な機能
 
