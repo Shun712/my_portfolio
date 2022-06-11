@@ -31,7 +31,7 @@
 https://www.figma.com/file/bCLhhsW8V6k5k5c3SBRGPv/%E3%81%8A%E3%81%99%E3%81%9D%E5%88%86%E3%81%91%E3%82%A2%E3%83%97%E3%83%AA?node-id=0%3A1
 
 # テーブル設計
-[![Image from Gyazo](https://i.gyazo.com/5b1e2b525e6169112a397dac6e818fbf.png)](https://gyazo.com/5b1e2b525e6169112a397dac6e818fbf)
+[![Image from Gyazo](https://i.gyazo.com/0c74bf81f0d8c31c32c6f61ae10e0897.png)](https://gyazo.com/0c74bf81f0d8c31c32c6f61ae10e0897)
 
 # 主な機能
 
@@ -60,11 +60,13 @@ https://www.figma.com/file/bCLhhsW8V6k5k5c3SBRGPv/%E3%81%8A%E3%81%99%E3%81%9D%E5
 
 - チャットの編集はできないようにしたほうがいいのでは？もしくは「編集済み」と表示されるといいかも。
 
-# 友人からのフィードバック(下3つは修正済み)
+# 友人からのフィードバック(下4つは修正済み)
 
 - 作物を距離順にソート検索できないか?
 
 - 通知を確認したものは既読を表すグレーにしたらわかりやすい。
+
+- 予約時間が過ぎたものはグレーの方がわかりやすい。
 
 - 予約一覧からもチャットを開けるようにしてほしい。
 
